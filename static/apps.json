@@ -7,7 +7,7 @@
     {
         "title": "Youtube",
         "img": "./img/apps/yt.png",
-        "location": "https://www.youtube.com"
+        "location": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
     {
         "title": "Spotify",
@@ -38,11 +38,6 @@
         "title": "CoolMathGames",
         "img": "./img/apps/cmg.png",
         "location": "https://www.coolmathgames.com"
-    },
-    {
-        "title": "Geforce Now",
-        "img": "./img/apps/gfnow.png",
-        "location": "https://play.geforcenow.com"
     },
     {
         "title": "Y8",
