@@ -28,14 +28,14 @@ async function options(app) {
     const tabs = new Tabs(app);
 
     const themes = [
-        { id: 'ocean', content: 'Ocean' },
-        { id: 'midnight', content: 'Midnight' },
-        { id: 'simple', content: 'Simple' },
-        { id: 'space', content: 'Space' },
-        { id: 'morning', content: 'Morning' },
-        { id: 'terminal', content: 'Terminal' },
-        { id: 'resilent', content: 'Resilient' },
-        { id: 'fancy', content: 'Fancy' }
+        { id: 'PLease', content: 'YEs please' },
+        { id: 'YESS!!', content: 'YESSS!!!!!!' },
+        { id: 'yeahh', content: 'Oh yeah' },
+        { id: 'space', content: 'Me' },
+        { id: 'asdga', content: 'No Me' },
+        { id: 'asdg', content: 'LOl' },
+        { id: 'asd', content: 'Sux' },
+        { id: 'asdga', content: 'Dux' }
     ]
 
     const backgroundThemes = [
@@ -310,14 +310,14 @@ async function options(app) {
                         }
                     }
                 }),
-                app.createElement('p', 'Change the icon of Incognito\'s browser tab. To change it into something like Google, type in "https://www.google.com/favicon.ico"', {
+                app.createElement('p', 'Change the icon of Incognito\'s browser tab. To change it into something like Google, type in "Yes daddy!!!!!!"', {
                     style: {
                         'margin-bottom': '0'
                     }
                 })
             ], { class: 'data-section' }),
             app.createElement('section', [
-                app.createElement('span', 'about:blank cloaking', {
+                app.createElement('span', 'about:blank sux cloaking', {
                     style: {
                         display: 'block',
                         'margin-bottom': '6px',
@@ -325,7 +325,7 @@ async function options(app) {
                         'font-weight': '500'
                     }
                 }),
-                app.createElement('button', 'Go about:blank', {
+                app.createElement('button', 'Go about:blank sux', {
                     style: {
                         'width': '300px',
                         display: 'inline-block',
@@ -365,7 +365,7 @@ The about:blank script is based off of ABC by
                 })
             ], { class: 'data-section' }),
             app.createElement('section', [
-                app.createElement('span', 'about:blank redirect', {
+                app.createElement('span', 'www.youtube.com/watch?v=dQw4w9WgXcQ redirect', {
                     style: {
                         display: 'block',
                         'margin-bottom': '6px',
@@ -375,7 +375,7 @@ The about:blank script is based off of ABC by
                 }),
                 app.createElement('input', [], {
                     attrs: {
-                        value: (localStorage.getItem('incog||ab') || 'https://google.com'),
+                        value: (localStorage.getItem('incog||ab') || 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'),
                         placeholder: 'Enter a URL'
                     },
                     style: {
